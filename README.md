@@ -1,4 +1,4 @@
-Get historical data from oanda.com in a nice csv file.
+Get historical candles from [oanda.com](https://www.oanda.com/) in a nice csv file.
 
 Usage:
 - Install necessary modules:
