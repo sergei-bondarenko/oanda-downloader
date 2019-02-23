@@ -19,11 +19,11 @@ Website: https://bondarenko.xyz
 Date: February 2019
 """
 
-# Maximum number of candles oanda.com can return.
+# A maximum number of candles which oanda.com can return.
 MAX_API_CANDLES = 5000  
 
-# Start date if it is not specified. oanda.com have data only starting
-# from 2002-05-07.
+# A starting time if it is not specified. oanda.com have data only
+# starting from 2002-05-07.
 MIN_TIME = 1020800000
 
 class MaxCountError(Exception):
